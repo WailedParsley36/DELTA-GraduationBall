@@ -1,8 +1,9 @@
+'use client'
 import * as cheerio from 'cheerio'
 import { Feed } from 'feed'
 
 export async function GET(req) {
-  let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  let siteUrl = "https://maturak.deltaskola.cz"
   let author = {
     name: 'Spencer Sharp',
     email: 'spencer@planetaria.tech',

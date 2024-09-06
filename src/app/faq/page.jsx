@@ -1,13 +1,8 @@
 'use client'
+
 import { Disclosure } from '@headlessui/react'
 import Link from 'next/link'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
-
-export const metadata = {
-  title: 'FAQ',
-  description:
-    'Najděte odpovědi na nejčastější otázky týkající se maturitního plesu v naší sekci FAQ. Zjistěte vše o rezervaci vstupenek, programu plesu, dress codu, místě konání a dalších organizačních detailech. Přehledné informace na jednom místě vám pomohou připravit se na nezapomenutelný večer plný zábavy a oslav.',
-}
 
 const faqs = [
   {
