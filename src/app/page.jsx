@@ -216,7 +216,7 @@ function Article({ article }) {
         {formatDate(article.date)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
+      <Card.Cta>Přečíst více</Card.Cta>
     </Card>
   )
 }
@@ -336,13 +336,13 @@ function TicketPrices() {
       <ol className="mt-6 space-y-4">
         {prices.map((role, roleIndex) => (
           <>
-            <li>
+            <li className='group'>
               <Link
                 href={role.url}
-                className="group flex cursor-pointer gap-4 p-5 py-2 hover:bg-red-500 hover:dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                className="group flex cursor-pointer gap-4 p-5 py-2 hover:bg-zinc-200/50 hover:dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
               >
                 {role.icon ? (
-                  <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 transition-transform group-hover:scale-110 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                  <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-800/50 transition-transform group-hover:scale-110 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                     {role.icon()}
                   </div>
                 ) : (

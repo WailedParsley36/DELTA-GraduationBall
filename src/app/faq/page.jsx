@@ -28,17 +28,17 @@ const faqs = [
 export default function FAQ() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-      <div className="mx-auto max-w-4xl divide-y divide-white/10">
+      <div className="mx-auto max-w-4xl divide-y dark:divide-white/10 divide-black/10">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Často kladené otázky
         </h1>
-        <dl className="mt-10 space-y-6 divide-y divide-white/10">
+        <dl className="mt-10 space-y-6 divide-y dark:divide-white/10 divide-black/10">
           {faqs.map((faq) => (
             <Disclosure as="div" key={faq.question} className="pt-6">
               {({ open }) => (
                 <>
                   <dt>
-                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
+                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-zinc-800 dark:text-zinc-100">
                       <span className="text-base font-semibold leading-7">
                         {faq.question}
                       </span>
@@ -58,7 +58,7 @@ export default function FAQ() {
                     </Disclosure.Button>
                   </dt>
                   <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                    <p className="text-base leading-7 text-gray-300">
+                    <p className="text-base leading-7 text-zinc-600 dark:text-zinc-400">
                       {faq.answer}
                     </p>
                   </Disclosure.Panel>
