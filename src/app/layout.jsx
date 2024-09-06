@@ -1,6 +1,5 @@
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
-import image from '../images/photos/image-1.jpg'
 import icon from './favicon.ico'
 
 import '@/styles/tailwind.css'
@@ -37,8 +36,8 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="Přijďte oslavit konec studia na DELTA Maturitním plese 22.2.2025 v luxusním prostředí domu kultury Dukla. Tento prestižní ples nabídne slavnostní šerpování, hudbu, tanec a bohatou tombolu. Vytvořte nezapomenutelné vzpomínky s rodinou a přáteli. Rezervujte si vstupenky na nezapomenutelný večer plný elegance a zábavy. DELTA Maturitní ples je ideální příležitost pro všechny, kteří chtějí stylově zakončit maturitní rok."
         />
-        <meta property="og:image" content={image} />
-        <meta property="og:url" content="https://maturak.deltaskola.cz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.36a75eaf.jpg&w=384&q=75" />
+        <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/maturita-ples.appspot.com/o/image-1.jpg?alt=media&token=1a18169e-ae5c-42cb-9622-8128bd851b7a" />
+        <meta property="og:url" content="https://maturak.deltaskola.cz/" />
         <meta property="og:type" content="website" />
       </head>
       <body className="flex h-full bg-zinc-50 dark:bg-black">
