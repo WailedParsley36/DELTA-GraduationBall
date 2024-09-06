@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           content="Přijďte oslavit konec studia na DELTA Maturitním plese 22.2.2025 v luxusním prostředí domu kultury Dukla. Tento prestižní ples nabídne slavnostní šerpování, hudbu, tanec a bohatou tombolu. Vytvořte nezapomenutelné vzpomínky s rodinou a přáteli. Rezervujte si vstupenky na nezapomenutelný večer plný elegance a zábavy. DELTA Maturitní ples je ideální příležitost pro všechny, kteří chtějí stylově zakončit maturitní rok."
         />
         <meta property="og:image" content={image} />
-        <meta property="og:url" content="maturita.deltaskola.cz" />
+        <meta property="og:url" content="https://maturak.deltaskola.cz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.36a75eaf.jpg&w=384&q=75" />
         <meta property="og:type" content="website" />
       </head>
       <body className="flex h-full bg-zinc-50 dark:bg-black">

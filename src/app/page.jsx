@@ -492,7 +492,7 @@ export default async function Home() {
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <TicketPrices />
           </div>
-          <div className="col-span-2 w-full self-center">
+          <div className="w-full self-center">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               A kdo že to vlastně pořádá?
             </h1>
