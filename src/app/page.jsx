@@ -298,31 +298,31 @@ function DateAndTime() {
 
 function TicketPrices() {
   let prices = [
-    {
-      title: 'VIP',
-      icon: starIcon,
-      description: 'S místem na sezení',
-      price: 450,
-      url: 'https://www.boomevents.org/cs',
-    },
+    // {
+    //   title: 'VIP',
+    //   icon: starIcon,
+    //   description: 'S místem na sezení',
+    //   price: 450,
+    //   url: 'https://www.boomevents.org/cs',
+    // },
     {
       title: 'Normální',
       description: 'S místem na sezení',
-      price: 400,
+      price: 399,
       divider: true,
       url: 'https://www.boomevents.org/cs',
     },
-    {
-      title: 'VIP',
-      icon: starIcon,
-      description: 'Bez místa na sezení',
-      price: 350,
-      url: 'https://www.boomevents.org/cs',
-    },
+    // {
+    //   title: 'VIP',
+    //   icon: starIcon,
+    //   description: 'Bez místa na sezení',
+    //   price: 350,
+    //   url: 'https://www.boomevents.org/cs',
+    // },
     {
       title: 'Normální',
       description: 'Bez místa na sezení',
-      price: 300,
+      price: 299,
       url: 'https://www.boomevents.org/cs',
     },
   ]
@@ -477,7 +477,7 @@ export default async function Home() {
               kontaktujte na
               {'  '}
               <strong className="whitespace-nowrap">
-                maturitak-info@deltaskola.cz
+                maturak@deltaskola.cz
               </strong>
               {'  '}
               pro více informací.

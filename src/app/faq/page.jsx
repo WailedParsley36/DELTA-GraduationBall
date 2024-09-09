@@ -14,15 +14,15 @@ const faqs = [
         <Link href="https://www.boomevents.org/cs"><u>zde</u></Link>
       </>
     ),
-  },
-  {
-    question: 'Jaký je rozdíl mezi VIP a normální vstupenkou?',
-    answer: (
-      <>
-        VIP vstupenky s místem na sezení vám zaručí nejlepší místa v centru dění, zatímco obyčejná nemusí. Co se týče VIP vstupenky bez místa na sezení, tak VIP status vám nic navíc nepřinese, jen nám přispějete víc peněz na zlepšení plesu
-      </>
-    ),
-  },
+  }
+  // {
+  //   question: 'Jaký je rozdíl mezi VIP a normální vstupenkou?',
+  //   answer: (
+  //     <>
+  //       VIP vstupenky s místem na sezení vám zaručí nejlepší místa v centru dění, zatímco obyčejná nemusí. Co se týče VIP vstupenky bez místa na sezení, tak VIP status vám nic navíc nepřinese, jen nám přispějete víc peněz na zlepšení plesu
+  //     </>
+  //   ),
+  // },
 ]
 
 export default function FAQ() {
