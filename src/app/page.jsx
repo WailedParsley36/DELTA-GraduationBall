@@ -288,7 +288,7 @@ function DateAndTime() {
           <CalendarIcon className="float-left h-6 w-6 flex-none" />
           <span className="float-left ml-3">Datum konání</span>
           <p className="float-right inline text-sm text-zinc-600 dark:text-zinc-400">
-            22.5 2025
+            22.2 2025
           </p>
         </div>
       </h2>
