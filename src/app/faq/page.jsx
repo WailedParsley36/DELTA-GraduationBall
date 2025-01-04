@@ -11,7 +11,7 @@ const faqs = [
       <>
         Vstupenky si jde zarezervovat na naší domovské stránce přes odkaz na
         BoomEvents.org, nebo přes tento odkaz, který vás tam vezme rovnou:{' '}
-        <Link href="https://www.boomevents.org/cs"><u>zde</u></Link>
+        <Link href="https://connect.boomevents.org/cs/event/maturitni-ples-delta-2025"><u>zde</u></Link>
       </>
     ),
   }

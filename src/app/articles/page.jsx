@@ -33,7 +33,7 @@ function Article({ article }) {
 }
 
 export const metadata = {
-  title: 'Aktuality',
+  title: 'Aktuality | DELTA - Maturitní ples 22.2.2025',
   description: 'Vše co se děje okolo našeho plesu na jednom místě',
 }
 

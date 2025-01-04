@@ -310,7 +310,7 @@ function TicketPrices() {
       description: 'S místem na sezení',
       price: 399,
       divider: true,
-      url: 'https://www.boomevents.org/cs',
+      url: 'https://connect.boomevents.org/cs/event/maturitni-ples-delta-2025/order',
     },
     // {
     //   title: 'VIP',
@@ -323,7 +323,7 @@ function TicketPrices() {
       title: 'Normální',
       description: 'Bez místa na sezení',
       price: 299,
-      url: 'https://www.boomevents.org/cs',
+      url: 'https://connect.boomevents.org/cs/event/maturitni-ples-delta-2025/order',
     },
   ]
 
@@ -336,7 +336,7 @@ function TicketPrices() {
       <ol className="mt-6 space-y-4">
         {prices.map((role, roleIndex) => (
           <>
-            <li className='group'>
+            <li className="group">
               <Link
                 href={role.url}
                 className="group flex cursor-pointer gap-4 p-5 py-2 hover:bg-zinc-200/50 hover:dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
@@ -372,7 +372,7 @@ function TicketPrices() {
         ))}
       </ol>
       <Button
-        href={'https://www.boomevents.org/cs'}
+        href={'https://connect.boomevents.org/cs/event/maturitni-ples-delta-2025'}
         variant="primary"
         className="group mt-6 w-full"
       >
@@ -384,28 +384,26 @@ function TicketPrices() {
 }
 
 function Photos() {
-  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
-
   return (
     <div className="mt-16 sm:mt-20">
-      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+      <Link
+        href="/gallery"
+        className="group -my-4 flex cursor-pointer justify-center gap-5 overflow-hidden py-4 sm:gap-8"
+      >
         {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
           <div
             key={image.src}
-            className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
-              rotations[imageIndex % rotations.length]
-            )}
+            className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 shadow-lg transition duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] odd:-rotate-2 even:rotate-2 group-hover:rotate-0 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl"
           >
             <Image
               src={image}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full rounded-xl object-cover"
             />
           </div>
         ))}
-      </div>
+      </Link>
     </div>
   )
 }
